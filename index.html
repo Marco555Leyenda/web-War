@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>compras</title>
+    <style>
+        body {
+            background-image: url('me.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            color: black;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            overflow: auto;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+            color: black;
+        }
+
+        .modal button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .modal button:hover {
+            background-color: #45a049;
+        }
+
+        .clickable-image {
+            cursor: pointer;
+            width: 555px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: chartreuse;
+            color: blue;
+            text-align: center;
+            padding: 20px 0;
+            bottom: 0;
+        }
+
+        .course-list {
+            text-align: left;
+            margin-left: 40px;
+            font-size: 18px;
+        }
+
+        .image-title {
+            font-size: 24px;
+            color: white;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .price {
+            font-size: 20px;
+            color: green;
+            margin-top: 15px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .image-container img {
+            width: 70%; /* Ajusta el tamaño de la imagen */
+            max-width: 500px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="Ventas">Bienvenidos al mercadercar</h1>
+    <h2>Parece que necesitas Productos</h2>
+    
+    <p>Alguna consulta puede hablar con nosotros</p>
+
+    <div class="course-list">
+        <h3>Productos de hoy:</h3>
+        <ul>
+            <li><a href="microondas.html" style="color: white; text-decoration: none;">Microondas</a></li>
+            <li><a href="refrigeradores.html" style="color: white; text-decoration: none;">Refrigeradores</a></li>
+            <li><a href="frutas.html" style="color: white; text-decoration: none;">Frutas</a></li>
+            <li><a href="carnes.html" style="color: white; text-decoration: none;">Carnes</a></li>
+            <li><a href="shampoos.html" style="color: white; text-decoration: none;">Shampoos</a></li>
+            <li><a href="tv.html" style="color: white; text-decoration: none;">TV</a></li>
+            <li><a href="cocina.html" style="color: white; text-decoration: none;">Estufa</a></li>
+        </ul>
+    </div>
+
+    <div class="image-container">
+        <img src="venta.jpg" alt="Imagen de venta">
+    </div>
+
+    <footer>
+        <p>No olvide consultar si hay duda</p>
+    </footer>
+
+</body>
+</html>
+
